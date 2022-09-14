@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oleo+Script+Swash+Caps&family=Roboto:wght@300&display=swap');
 /*////////////////////////
     Table of Contents
     1. Global Styles
@@ -13,10 +14,122 @@
 ////////////////////////*/
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 /* ------------------------------- 2. Typography ----------------------------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
+h1, h2{
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    width: 30ch;
+}
 /* ------------------------------- 3. Layout --------------------------------------- */
+header{
+    background: rgb(72,69,228);
+    background: linear-gradient(90deg, rgba(72,69,228,1) 0%, rgba(72,69,228,1) 51%, rgba(87,34,205,1) 100%);
+    color: white;
+    position: relative;
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+}
+.header-title-1{
+    padding: 20px;
+}
+.header-title-2{
+    padding: 22px;
+    border-radius: 30px;
+    border: 2px;
+    background-color: #ED4385;
+    color: white;
+    text-transform: uppercase;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2em;
+    padding-top:10px ;
+    margin-right: 16px ;
+    list-style: none;
+    color: white;
+}
+.image-1{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+}
+
+.introduction-div{
+    padding-top: 40px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 40px;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #5722CD;
+}
+.contact-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.click-here-link{
+    text-decoration: none;
+}
+.squiggle-line-2{
+    width: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.rolling-stones-flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.rolling-stone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.work-photo-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 550px;
+    padding-left: 600px;
+    padding-right: 50px;
+}
 
 /* --------------- 3.1 Reusables ----------------------- */
 

@@ -59,6 +59,10 @@ header{
     color: white;
     text-transform: uppercase;
 }
+.header-title-2:hover{
+    background-color:limegreen;
+    transition: 1.0s;
+}
 .nav{
     display: flex;
     flex-direction: row;

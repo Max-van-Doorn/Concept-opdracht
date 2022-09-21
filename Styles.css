@@ -30,6 +30,9 @@ h1, h2{
 h1{
     width: 30ch;
 }
+h2{
+    color: #5722CD;
+}
 /* ------------------------------- 3. Layout --------------------------------------- */
 header{
     background: rgb(72,69,228);
@@ -67,7 +70,7 @@ header{
     color: white;
 }
 .image-1{
-    width: 100px;
+    width: 120px;
     height: 60px;
     position: absolute;
     bottom: 0;
@@ -86,7 +89,6 @@ header{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    color: #5722CD;
 }
 .contact-link{
     display: flex;
@@ -99,6 +101,7 @@ header{
 
 .click-here-link{
     text-decoration: none;
+    color: #5722CD;
 }
 .squiggle-line-2{
     width: 50px;
@@ -132,6 +135,7 @@ header{
     width: 550px;
     padding-left: 600px;
     padding-right: 50px;
+    padding-top: 50px;
 }
 .image-wrapper{
     flex-basis: 800px;
@@ -179,6 +183,151 @@ header{
     padding-left: 150px;
     margin: 50px;
 }
+
+.view-project{
+    padding-top: 50px;
+    color: #4845E4;
+    text-transform: uppercase;
+    font-size: small;
+}
+.service-container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+}
+.service-container-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.web-design{
+    border: solid #4845E4;
+    flex-basis: 300px;
+    padding: 40px;
+}
+.web-development{
+    border: solid #4845E4;
+    flex-basis: 300px;
+    padding: 40px;
+}
+.user-experience{
+    border: solid #4845E4;
+    flex-basis: 300px;
+    padding: 40px;
+}
+.logo-design{
+    border: solid #4845E4;
+    flex-basis: 300px;
+    padding: 40px;
+}
+.seo{
+    border: solid #4845E4;
+    flex-basis: 300px;
+    padding: 40px;
+}
+.copy-writing{
+    border: solid #4845E4;
+    flex-basis: 300px;
+    padding: 40px;
+}
+
+.service-picture-1{
+    width: 70px;
+}
+.service-picture-2{
+    width: 70px;
+}
+.service-picture-3{
+    width: 70px;
+}
+.service-picture-4{
+    width: 70px;
+}
+.service-picture-5{
+    width: 70px;
+}
+.service-picture-6{
+    width: 70px;
+}
+.form-section{
+    background: rgb(72,69,228);
+    background: linear-gradient(90deg, rgba(72,69,228,1) 0%, rgba(72,69,228,1) 51%, rgba(87,34,205,1) 100%);
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.form-title{
+    color: white;
+}
+.form-text{
+    color: white;
+    padding: 20px;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+label{
+    color: white;
+}
+.name{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.mail{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.message{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.form-button{
+    border-radius: 35px;
+    width: 150px;
+    height: 50px;
+    background-color: #ED4385;
+    color: white;
+    border-style: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.service-text-color{
+    color: #7A7A7A;
+}
+
+
+
+
 
 
 

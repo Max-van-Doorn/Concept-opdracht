@@ -69,6 +69,19 @@ header{
     list-style: none;
     color: white;
 }
+
+.link-to-form{
+    text-decoration: none;
+    color: white;
+}
+.link-to-service{
+    text-decoration: none;
+    color: white;
+}
+.link-to-case-studies{
+    text-decoration: none;
+    color: white;
+}
 .image-1{
     width: 120px;
     height: 60px;
@@ -127,15 +140,16 @@ header{
     text-align: left;
     padding-top: 100px;
     padding-left: 50px;
+    margin-right: 400px;
 }
 .work-photo-1{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 550px;
-    padding-left: 600px;
-    padding-right: 50px;
-    padding-top: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px #ccc;
 }
 .image-wrapper{
     flex-basis: 800px;
@@ -149,8 +163,10 @@ header{
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-    padding-right: 150px;
-    padding-top: 130px;
+    margin-right: 150px;
+    padding-right: 20px;
+    margin-top: 130px;
+    margin-left: 400px;
 
 }
 
@@ -159,10 +175,10 @@ header{
     flex-direction: row;
     justify-content: flex-start;
     width: 550px;
-    padding-left: 50px;
-    padding-bottom: 100px;
-    padding-right: 400px;
+    margin-left: 50px;
+    margin-bottom: 100px;
     margin-top: 75px;
+    box-shadow: 10px 10px 5px #ccc;
 }
 
 .work-photo-3{
@@ -170,9 +186,10 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     width: 550px;
-    padding-right: 50px;
-    padding-left: 400px;
-    padding-bottom: 100px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    box-shadow: 10px 10px 5px #ccc;
+
 }
 .worth{
     display: flex;
@@ -180,7 +197,8 @@ header{
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-    padding-left: 150px;
+    padding-left: 75px;
+    padding-right: 200px;
     margin: 50px;
 }
 
@@ -210,32 +228,38 @@ header{
 .web-design{
     border: solid #4845E4;
     flex-basis: 300px;
-    padding: 40px;
+    aspect-ratio: 1;
+    padding: 20px;
 }
 .web-development{
     border: solid #4845E4;
     flex-basis: 300px;
-    padding: 40px;
+    aspect-ratio: 1;
+    padding: 20px;
 }
 .user-experience{
     border: solid #4845E4;
     flex-basis: 300px;
-    padding: 40px;
+    aspect-ratio: 1;
+    padding: 20px;
 }
 .logo-design{
     border: solid #4845E4;
     flex-basis: 300px;
-    padding: 40px;
+    aspect-ratio: 1;
+    padding: 20px;
 }
 .seo{
     border: solid #4845E4;
     flex-basis: 300px;
-    padding: 40px;
+    aspect-ratio: 1;
+    padding: 20px;
 }
 .copy-writing{
     border: solid #4845E4;
     flex-basis: 300px;
-    padding: 40px;
+    aspect-ratio: 1;
+    padding: 20px;
 }
 
 .service-picture-1{

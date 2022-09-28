@@ -17,6 +17,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* ------------------------------- 2. Typography ----------------------------------- */
 body {
@@ -66,7 +67,7 @@ header{
 
 .header-title-2:hover{
     background-color:limegreen;
-    transition: 1.0s;
+    transition: 2.0s;
 }
 
 .nav{
@@ -114,6 +115,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 20px;
 }
 
@@ -123,13 +125,14 @@ header{
     justify-content: center;
     align-items: center;
     padding-top: 70px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .click-here-link{
     text-decoration: none;
     color: #5722CD;
 }
+
 
 .squiggle-line-2{
     width: 50px;
@@ -168,11 +171,6 @@ header{
     box-shadow: 10px 10px 5px #ccc;
 }
 
-.image-wrapper{
-    flex-basis: 800px;
-    flex-grow: 0;
-    flex-shrink: 1;
-}
 
 .variety {
     display: flex;
@@ -220,6 +218,11 @@ header{
     margin: 50px;
 }
 
+.link-to-websites{
+    text-decoration: none;
+}
+
+
 .view-project{
     padding-top: 50px;
     color: #4845E4;
@@ -248,42 +251,42 @@ header{
 
 .web-design{
     border: solid #4845E4;
-    flex-basis: 300px;
+    flex-basis: 350px;
     aspect-ratio: 1;
     padding: 20px;
 }
 
 .web-development{
     border: solid #4845E4;
-    flex-basis: 300px;
+    flex-basis: 350px;
     aspect-ratio: 1;
     padding: 20px;
 }
 
 .user-experience{
     border: solid #4845E4;
-    flex-basis: 300px;
+    flex-basis: 350px;;
     aspect-ratio: 1;
     padding: 20px;
 }
 
 .logo-design{
     border: solid #4845E4;
-    flex-basis: 300px;
+    flex-basis: 350px;
     aspect-ratio: 1;
     padding: 20px;
 }
 
 .seo{
     border: solid #4845E4;
-    flex-basis: 300px;
+    flex-basis: 350px;
     aspect-ratio: 1;
     padding: 20px;
 }
 
 .copy-writing{
     border: solid #4845E4;
-    flex-basis: 300px;
+    flex-basis: 350px;
     aspect-ratio: 1;
     padding: 20px;
 }
@@ -368,7 +371,6 @@ label{
     height: 150px;
     margin-bottom: 20px;
 
-
 }
 
 .form-button{
@@ -379,7 +381,7 @@ label{
     color: white;
     border-style: none;
     text-transform: uppercase;
-    font-width: bold;
+    font-weight: bold;
 }
 .form-button:hover{
     background-color:limegreen;
@@ -399,20 +401,3 @@ footer{
     color: #7A7A7A;
 }
 
-
-
-
-
-
-
-/* --------------- 3.1 Reusables ----------------------- */
-
-/* --------------- 3.2 Other --------------------------- */
-
-/* ------------------------------- 4. Areas ---------------------------------------- */
-
-/* --------------- 4.1 Header ------------------------- */
-
-/* --------------- 4.2 Introduction ------------------- */
-
-/* ------------------------------- 5. Media Queries -------------------------------- */
